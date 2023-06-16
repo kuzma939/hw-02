@@ -133,14 +133,17 @@ text-decoration: none;
 
 }
 
-.hero-btn:hover {
-background-color: #404BBF;
+.hero-btn {
+background-color: #4D5AE5;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+color: #ffffff
+}
+.hero-btn:hover {
+    background-color: #404BBF;
 }
 
 /*Section 1*/
