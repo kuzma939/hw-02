@@ -172,20 +172,21 @@ button {
 
 /*Our Team section*/
 .section-team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .section-team-title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
 }
 
-.section-team-list {}
+.section-team-list {
+    background-color: #FFFFFF;
+}
 
 .section-team-item {}
 
@@ -204,7 +205,7 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1, 2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -215,7 +216,7 @@ button {
 }
 
 .footer-link {
-    font-family: 'Raleway';
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -225,7 +226,6 @@ button {
 }
 
 .footer-link-stydio {
-    font-family: 'Raleway';
     color: #F4F4FD;
 }
 
@@ -233,9 +233,9 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1, 5;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 /*Filters*/
@@ -288,6 +288,7 @@ color: #4D5AE5;
 .section-img {}
 
 .section-title {
+    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -308,6 +309,7 @@ color: #4D5AE5;
 .section-img {}
 
 .section-title {
+    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
