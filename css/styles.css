@@ -58,19 +58,22 @@ button {
 
 .header-list {
     list-style: none;
+    
+}
+
+.header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.header-item:hover {
-    background: #404bbf;
-    color: #404bbf;
-    text-decoration: none;
     color: #2e2f42;
 }
+.header-item-stydio:hover {
+    text-decoration: none;
+    color: #404bbf;
 
+
+}
 .header-item {
     color: #2e2f42;
 }
@@ -114,8 +117,8 @@ button {
 
 }
 
-.hero-btn {
-    background-color: #4D5AE5;
+.hero-btn:hover {
+background-color: #404BBF;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
