@@ -9,7 +9,7 @@
 .main-page {}
 
 .body {
-    font-family: 'Roboto', sans-serif;
+font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
 }
@@ -268,6 +268,7 @@ color: #4D5AE5;
 .section-img {}
 
 .section-title {
+    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
