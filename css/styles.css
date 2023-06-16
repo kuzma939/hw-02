@@ -64,7 +64,10 @@ button {
     letter-spacing: 0.02em;
 }
 
-.header-item {
+.header-item:hover {
+    background: #404bbf;
+    color: #404bbf;
+    text-decoration: none;
     color: #2e2f42;
 }
 
@@ -112,14 +115,13 @@ button {
 }
 
 .hero-btn {
+    background-color: #4D5AE5;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background-color: #404BBF
 }
 
 /*Section 1*/
@@ -158,12 +160,13 @@ button {
 .section-doing {}
 
 .section-doing-title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 1.1px;
+    line-height: 1.1;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42
+    
 }
 
 .section-doing-list {}
