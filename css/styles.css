@@ -152,7 +152,6 @@ text-decoration: none;
 .hero-btn { 
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -222,7 +221,6 @@ color: #ffffff
 }
 
 .section-team-title {
-    background-color: #F4F4FD;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -303,7 +301,7 @@ color: #ffffff
 background: #404BBF;
 }
 .section-filters-btn {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
