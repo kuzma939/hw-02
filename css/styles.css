@@ -82,11 +82,11 @@ button {
         letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-item-portfolio:hover {
+.header-item-stydio:hover {
 text-decoration: none;
     color: #404bbf;
 }
-.header-item-portfolio:focus {
+.header-item-stydio:focus {
     color: #404bbf;
 }
 
@@ -97,11 +97,11 @@ text-decoration: none;
         letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-item-contak:hover {
+.header-item-stydio:hover {
 text-decoration: none;
     color: #404bbf;
 }
-.header-item-contak:focus {
+.header-item-stydio:focus {
     color: #404bbf;
 }
 
@@ -124,7 +124,12 @@ text-decoration: none;
 .address-link {
     color: #434455;
 }
-
+.address-link:hover {
+    color: #404bbf;
+}
+.address-link:focus {
+    color: #404bbf;
+}
 /*Main block*/
 .main {}
 
@@ -138,14 +143,15 @@ text-decoration: none;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 
 }
 
-.hero-btn {
-    font-family: "Roboto", sans-serif;
+.hero-btn { 
 background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -216,7 +222,6 @@ color: #ffffff
 }
 
 .section-team-title {
-    font-style: normal;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -296,18 +301,23 @@ color: #ffffff
 .section-filter-item {
 background: #404BBF;
 }
-.section-filters-btn:hover {
+.section-filters-btn {
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #F4F4FD;
+    background-color: #F4F4FD;
 }
-.section-filters-btn {
-color: #4D5AE5;
+.section-filters-btn:hover {
+color: #FFFFFF;
+background-color: #404BBF;
 }
-
+.section-filters-btn: {
+color: #FFFFF;
+background-color: #404BBF;
+}
 .section-list {}
 
 .section-item {}
