@@ -222,6 +222,7 @@ color: #ffffff
 }
 
 .section-team-title {
+    background-color: #F4F4FD;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -307,7 +308,7 @@ background: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #F4F4FD;
+    color: #4d5ae5;
     background-color: #F4F4FD;
 }
 .section-filters-btn:hover {
