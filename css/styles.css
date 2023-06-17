@@ -287,7 +287,7 @@ color: #ffffff
 }
 
 /*Filters*/
-.body {
+.font-family {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
@@ -314,8 +314,8 @@ background: #404BBF;
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.section-filters-btn: {
-color: #FFFFF;
+.section-filters-btn:focus {
+color: #FFFFFF;
 background-color: #404BBF;
 }
 .section-list {}
